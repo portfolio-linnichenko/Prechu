@@ -1,0 +1,23 @@
+#saydbar {
+	width:100%;
+	background:#f1f1f1;
+	left:-768px;
+	position:absolute;
+	z-index:2;
+	transition: left 0.5s linear;
+	top:60px;
+}
+#saydbar.visible {
+	left:0;
+}
+@media (max-width: 320px){
+  	#saydbar {
+		top:69px;
+	}
+  	#saydbar {
+		&.nav__item {
+		padding-top:5px;
+		padding-bottom:5px;
+}
+}
+}

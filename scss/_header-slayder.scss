@@ -1,0 +1,19 @@
+.header-slayder {
+	background: url(../images/fon.png);
+	background-size: cover;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 30px;
+	&::after {
+    content: '';
+    position: absolute;
+    background: url(../images/trible.png) repeat-x;
+    height: 20px;
+    width: 100%;
+    margin-top: -7px;
+}
+}
+.header-slayder__small {
+	max-width: 850px;
+	margin: 0 auto;
+	}

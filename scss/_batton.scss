@@ -1,0 +1,17 @@
+.batton {
+    overflow: hidden;
+    border-radius: 3px;
+}
+.batton__a {
+    background: #6699ff;
+    width: 160px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    span {
+    	padding-left: 10px;
+    }
+}
+.batton__Shape {
+    float: left;
+}

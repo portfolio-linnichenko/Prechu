@@ -1,0 +1,42 @@
+.header {
+    max-width: 960px;
+    margin: 0 auto 12px;
+    padding-top: 10px;
+}
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; 
+    display: table; 
+  }
+  &:after {
+    clear: both;
+  }
+}
+.logo-b {
+	display: inline-block;
+	float: left;
+	a {
+		display: block;
+	}
+}
+.header-slayder {
+	background: url('../images/fon.png');
+	 background-size: cover;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+	.header {
+		margin: 0 auto 71px;
+	}
+}
+
+@media (max-width: 320px){
+	.logo {
+		text-align:center;
+		width:100%;
+	}
+}
