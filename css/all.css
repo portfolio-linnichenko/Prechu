@@ -822,7 +822,7 @@ a {
 .header {
   max-width: 960px;
   margin: 0 auto 12px;
-  padding-top: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .clearfix:before, .clearfix:after {
@@ -843,7 +843,7 @@ a {
   display: block;
 }
 
-.header-slayder {
+.slayder {
   background: url("../images/fon.png");
   background-size: cover;
   margin: 0 auto;
@@ -1051,7 +1051,7 @@ a {
   transform: rotate(-45deg);
 }
 
-.header-slayder {
+.slayder {
   background: url(../images/fon.png);
   background-size: cover;
   margin: 0 auto;
@@ -1059,7 +1059,7 @@ a {
   padding-top: 30px;
 }
 
-.header-slayder::after {
+.slayder::after {
   content: '';
   position: absolute;
   background: url(../images/trible.png) repeat-x;
@@ -1068,9 +1068,10 @@ a {
   margin-top: -7px;
 }
 
-.header-slayder__small {
+.slayder__small {
   max-width: 850px;
   margin: 0 auto;
+  padding: 0 10px 0 10px;
 }
 
 .image {
@@ -1268,6 +1269,26 @@ a {
   margin-left: 50px;
 }
 
+@media (max-width: 768px) {
+  .bx-wrapper .bx-prev {
+    left: 0;
+    background: url(../images/Layer-23.png) no-repeat;
+  }
+  .bx-wrapper .bx-next {
+    right: 0;
+    background: url(../images/Layer-23-copy.png) no-repeat;
+  }
+  .bx-wrapper .bx-controls-direction a {
+    width: 36px;
+  }
+  .bx-wrapper .bx-prev:active {
+    background-position: -36px 0;
+  }
+  .bx-wrapper .bx-next:active {
+    background-position: -36px 0;
+  }
+}
+
 .slayd-text {
   display: inline-block;
   vertical-align: middle;
@@ -1281,8 +1302,21 @@ a {
 }
 
 .slayd-text .sl-p {
-  font-size: 20px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 568px) {
+  .slayd-text {
+    display: block;
+    margin: 0 auto;
+    width: 71%;
+  }
+  .slayd-text h1 {
+    font-size: 22px;
+  }
+  .slayd-text .sl-p {
+    margin-bottom: 16px;
+  }
 }
 
 .batton {
@@ -1444,4 +1478,5 @@ h4 {
 
 .content {
   padding-top: 2%;
+  padding: 0 10px 0 10px;
 }
