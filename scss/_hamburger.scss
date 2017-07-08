@@ -6,23 +6,6 @@
 #hamburger {
 	display:none;
 }
-@media (max-width: 768px){
-	#hamburger {
-		display:inline-block;
-	}
-}
-
-@media (max-width: 320px){
-  	#hamburger {
-		display:block;
-		width:auto;
-		overflow:hidden;
-		display:inline-block;
-	}
-  	#nav-toggle {
-		display:block;
-	}
-}
 #nav-toggle { 
   cursor: pointer; 
   display: inline-block;

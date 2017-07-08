@@ -1,7 +1,7 @@
 .header {
     max-width: 960px;
-    margin: 0 auto 12px;
-    padding: 10px 10px 0 10px;
+    margin: 0 auto;
+    padding: 10px 10px 12px 10px;
 }
 .clearfix {
   &:before,
@@ -26,17 +26,4 @@
 	margin:0 auto;
 	overflow:hidden;
 	padding-top: 30px;
-}
-
-@media (max-width: 768px) {
-	.header {
-		margin: 0 auto 71px;
-	}
-}
-
-@media (max-width: 320px){
-	.logo {
-		text-align:center;
-		width:100%;
-	}
 }

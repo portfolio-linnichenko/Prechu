@@ -10,14 +10,3 @@
 #saydbar.visible {
 	left:0;
 }
-@media (max-width: 320px){
-  	#saydbar {
-		top:69px;
-	}
-  	#saydbar {
-		&.nav__item {
-		padding-top:5px;
-		padding-bottom:5px;
-}
-}
-}
